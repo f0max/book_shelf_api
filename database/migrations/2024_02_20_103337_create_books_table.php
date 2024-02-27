@@ -16,7 +16,7 @@ return new class extends Migration
             $table->integer('customer_id');
             $table->string('author');
             $table->string('title');
-            $table->string('status'); // not available, available
+            $table->string('status'); // not available (NA), available (A)
             $table->dateTime('given_date')->nullable();
             $table->timestamps();
         });
